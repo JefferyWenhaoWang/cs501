@@ -6,6 +6,7 @@ It displays a personal message and includes a button. When the button is pressed
 
 ## Screenshot
 ![App Screenshot](52c5696db014462171186c2e168e4a0a.png)
+![App Screenshot](525acba6f289ce807b2713d9cd4218e0.png)
 
 ## Device / Emulator / SDK
 - Emulator: Medium Phone API 36.1 (Android Studio Emulator)

@@ -1,15 +1,20 @@
-# CS501 Individual Assignment 1
+## Individual Assignment 3 – Q1 Settings Screen
 
-## What the app does
-This is a simple Jetpack Compose app written in Kotlin.
-It displays a personal message and includes a button. When the button is pressed, the text updates.
+### Requirements Checklist
+- Column as main container ✅
+- Each setting row is a Row:
+  - Left: Column (label + supporting text) ✅
+  - Right: control (Switch/Checkbox/Slider/Button) ✅
+- Correct use of Modifier.weight() to prevent truncation ✅
 
-## Screenshot
-![App Screenshot](52c5696db014462171186c2e168e4a0a.png)
-![App Screenshot](525acba6f289ce807b2713d9cd4218e0.png)
+### Material 3 Components Used (6+)
+TopAppBar, Card, ListItem, Switch, Checkbox, Slider, Divider, AssistChip, Button, Snackbar ✅
 
-## Device / Emulator / SDK
-- Emulator: Medium Phone API 36.1 (Android Studio Emulator)
-- Android API Level: 36 (API 36.1 system image)
-- Android Studio: Android Studio Otter 3 Feature Drop | 2025.2.3
-- Build: AI-252.28238.7.2523.14688667 (built on Jan 9, 2026)
+### Modifiers Demonstrated
+padding, fillMaxWidth, weight, heightIn/sizeIn, align, clip, background, clickable ✅
+
+### Screenshot
+- `screenshots/assignment3/q1-settings.png`
+
+### AI Disclosure
+I used ChatGPT to help interpret the assignment requirements and draft Jetpack Compose code structure. I reviewed, modified, and tested the final implementation myself.

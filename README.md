@@ -16,6 +16,3 @@ padding, fillMaxWidth, weight, heightIn/sizeIn, align, clip, background, clickab
 ## Screenshot
 
 ![Q1 Settings Screen](screenshots/main/Individual Assignment 3 Q1.png)
-
-### AI Disclosure
-I used ChatGPT to help interpret the assignment requirements and draft Jetpack Compose code structure. I reviewed, modified, and tested the final implementation myself.

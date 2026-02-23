@@ -13,8 +13,9 @@ TopAppBar, Card, ListItem, Switch, Checkbox, Slider, Divider, AssistChip, Button
 ### Modifiers Demonstrated
 padding, fillMaxWidth, weight, heightIn/sizeIn, align, clip, background, clickable ✅
 
-### Screenshot
-- `screenshots/assignment3/q1-settings.png`
+## Screenshot
+
+![Q1 Settings Screen](screenshots/assignment3/q1-settings.png)
 
 ### AI Disclosure
 I used ChatGPT to help interpret the assignment requirements and draft Jetpack Compose code structure. I reviewed, modified, and tested the final implementation myself.

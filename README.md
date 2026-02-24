@@ -136,6 +136,78 @@ Build a “Tag Browser” screen where chips wrap nicely across the screen and s
 - `app/src/main/java/com/example/cs501_ia1/Q3TagBrowserScreen.kt`
 
 ---
+## Q4 — Responsive Layout Challenge (Phone vs Tablet)
+
+### Overview
+This screen demonstrates a responsive layout that changes based on available width.
+
+- **Phone mode (narrow screen):** uses a **single `Column`** layout
+- **Tablet/Landscape mode (wide screen):** switches to a **two-pane `Row`** layout
+  - **Left pane:** navigation/options list
+  - **Right pane:** detail content area (mixed `Box` + `Column` composition)
+
+I used `BoxWithConstraints` to detect screen width and switch layouts at a breakpoint.
+
+---
+
+### Responsive Behavior
+- **Breakpoint:** `maxWidth < 700.dp` → Phone layout
+- **Otherwise:** Wide/tablet layout
+
+This allows the UI to adapt cleanly between compact and expanded screens.
+
+---
+
+### Layout Requirements (Q4) — Implemented
+✅ **Phone (narrow):** single `Column` layout  
+✅ **Wide (tablet/landscape):** `Row` with two panes  
+✅ **Left pane:** navigation/options list (Column/List items)  
+✅ **Right pane:** detail content using `Box` + `Column`  
+✅ **Responsive breakpoint behavior** using `BoxWithConstraints`
+
+---
+
+### Material 3 Components Used (6+)
+This screen uses Material 3 components including:
+- `TopAppBar`
+- `Card`
+- `ListItem`
+- `LinearProgressIndicator`
+- `Switch`
+- `AssistChip`
+- `FilledTonalButton`
+- `Text`
+- `Divider` (if included in your implementation)
+
+---
+
+### Modifier Usage (Required)
+This implementation demonstrates:
+- `weight()` for two-pane width allocation in wide mode
+- `fillMaxHeight()` for pane height behavior
+- `fillMaxWidth()` and `padding(...)` for responsive spacing
+- `verticalScroll(...)` / `LazyColumn(...)` (depending on implementation)
+- consistent spacing and alignment across both modes
+
+---
+
+### Screenshot
+**Q4 UI screenshot (phone mode):**
+
+![Q4 Responsive Layout Screenshot](Q4.png)
+
+> Note: The screenshot above shows the **phone layout**. The app also supports a **tablet/landscape two-pane layout** at wider widths.
+
+---
+
+### AI Disclosure
+I used ChatGPT as a coding assistant for:
+- brainstorming layout structure
+- debugging Compose errors
+- refining responsive layout logic (`BoxWithConstraints`, `Row/Column`, modifiers)
+- improving README wording/documentation
+
+All code was reviewed, edited, and tested by me before submission.
 
 ## AI Disclosure
 

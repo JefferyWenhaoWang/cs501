@@ -1,4 +1,4 @@
-# CS501 - Individual Assignment 3 (Q1–Q3)
+# CS501 - Individual Assignment 3 (Q1–Q4)
 
 This repository contains my solutions for **Individual Assignment 3** in CS501 (Jetpack Compose / Material 3 UI layouts).
 

@@ -201,22 +201,7 @@ This implementation demonstrates:
 ---
 
 ### AI Disclosure
-I used ChatGPT as a coding assistant for:
-- brainstorming layout structure
-- debugging Compose errors
-- refining responsive layout logic (`BoxWithConstraints`, `Row/Column`, modifiers)
-- improving README wording/documentation
-
-All code was reviewed, edited, and tested by me before submission.
-
-## AI Disclosure
-
-I used ChatGPT as a coding assistant for:
-- brainstorming UI structure and Compose layout patterns
-- debugging Compose errors (imports, modifiers, layout issues)
-- improving README wording and organization
-
-All code was reviewed, integrated, and tested by me in Android Studio before submission.
+I used ChatGPT as a coding assistant for: debugging Compose errors
 
 ---
 
